@@ -1,0 +1,24 @@
+###
+GET http://localhost:8080/wedding/api
+
+###
+POST http://localhost:8080/wedding/api/new
+Content-Type: application/json
+
+{
+  "cost": 65000.00,
+  "name": "Видео",
+  "description": "Расходы на видео"
+}
+
+
+###
+PUT http://localhost:8080/wedding/api/update
+Content-Type: application/json
+
+{
+  "id": 0,
+  "cost": 60000.00,
+  "name": "Видео",
+  "description": "Расходы на видео"
+}
